@@ -3,7 +3,9 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
+    // After
     alias(libs.plugins.androidApplication)
+    //
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
 }
