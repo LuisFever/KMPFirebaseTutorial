@@ -6,4 +6,7 @@ plugins {
     alias(libs.plugins.composeMultiplatform) apply false
     alias(libs.plugins.composeCompiler) apply false
     alias(libs.plugins.kotlinMultiplatform) apply false
+
+//    Para IOS
+    alias(libs.plugins.kotlin.cocoapods) apply false
 }
